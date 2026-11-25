@@ -1,0 +1,23 @@
+# Agent secrets — never commit these
+*-keypair.json
+makefun-keypair.json
+keystore/
+.credentials
+makefun-credentials
+claim-codes.md
+*claim-codes*
+
+# Local config
+.env
+.env.*
+!.env.example
+
+# Deps and build output
+node_modules/
+dist/
+build/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
